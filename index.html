@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealther Dashboard</title>
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+</head>
+
+
+<div id="container">
+    <header>
+        <div id="header">
+
+            <div>
+
+            </div>
+            <div class="info">
+                <h2>Wealther Dashboard</h2>
+                <img src="Images/sunrise_icon.png" alt="Sunrise">
+                <h5>Sunrise: <span id="sunrise"></span></h5>
+                <img src="Images/sunset_icon.png" alt="sunset">
+                <h5>Sunset: <span id="sunset"></span></h5>
+
+                <img src="Images/celsius-30.png" alt="sunset">
+                <h5> <span id="c"></span></h5>
+                <img src="Images/fahrenheit-30.png" alt="sunset">
+                <h5> <span id="f"></span></h5>
+                <h4>. Date: <span id="Today"></span> </h4>
+
+
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <div id="body">
+            <div class="row">
+                <div id="extra">
+
+                    <div class="col-3 col-s-3 menu">
+
+                        <div>
+
+                            <input type="text" id="city-name" placeholder="Enter Your City">
+                        </div>
+
+                        <button onclick="Search_new_city_data()">Search</button>
+                        <br></br>
+                        <ul id="MenuList"></ul>
+
+
+                    </div>
+
+                    <div class="col-6 col-s-9">
+                        <div class="container">
+                            <div id="weather">
+                                <img src="" alt="" srcset="" id="weather-icon">
+                                <div id="location">Unable to Fetch Weather</div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+                        <form id="search-form" class="form">
+                            <div class="flex-container">
+
+                                <article class="flex-item">
+                                    <a class="image-link"><img src="" srcset="" id="date1Img">
+                                    </a>
+
+                                    <div class="text">
+                                        <h3><span id="date1"></span></h3>
+                                        <h4><span id="date1desc"></span></h4>
+                                        <h5>Temp : <span id="date1_Tempc"></span> </h5>
+                                        <h5>Temp : <span id="date1_Tempf"></span> </h5>
+                                        <h5>Wind : <span id="date1_wind"></span></h5>
+                                        <h5>Humidity : <span id="date1_Humin"></span> </h5>
+
+                                    </div>
+                                </article>
+                                <article class="flex-item">
+
+                                    <a class="image-link"><img src="" srcset="" id="date2Img">
+                                    </a>
+
+                                    <div class="text">
+                                        <h3><span id="date2"></span></h3>
+                                        <h4><span id="date2desc"></span></h4>
+                                        <h5>Temp : <span id="date2_Tempc"></span> </h5>
+                                        <h5>Temp : <span id="date2_Tempf"></span> </h5>
+                                        <h5>Wind : <span id="date2_wind"></span></h5>
+                                        <h5>Humidity : <span id="date2_Humin"></span> </h5>
+
+                                    </div>
+
+                                </article>
+                                <article class="flex-item">
+
+                                    <a class="image-link"><img src="" srcset="" id="date3Img">
+                                    </a>
+
+                                    <div class="text">
+                                        <h3><span id="date3"></span></h3>
+                                        <h4><span id="date3desc"></span></h4>
+                                        <h5>Temp : <span id="date3_Tempc"></span> </h5>
+                                        <h5>Temp : <span id="date3_Tempf"></span> </h5>
+                                        <h5>Wind : <span id="date3_wind"></span></h5>
+                                        <h5>Humidity : <span id="date3_Humin"></span> </h5>
+
+                                    </div>
+                                </article>
+                                <article class="flex-item">
+
+                                    <a class="image-link"><img src="" srcset="" id="date4Img">
+                                    </a>
+
+                                    <div class="text">
+                                        <h3><span id="date4"></span></h3>
+                                        <h4><span id="date4desc"></span></h4>
+                                        <h5>Temp : <span id="date4_Tempc"></span> </h5>
+                                        <h5>Temp : <span id="date4_Tempf"></span> </h5>
+                                        <h5>Wind : <span id="date4_wind"></span></h5>
+                                        <h5>Humidity : <span id="date4_Humin"></span> </h5>
+
+                                    </div>
+                                </article>
+                                <article class="flex-item">
+
+                                    <a class="image-link"><img src="" srcset="" id="date5Img">
+                                    </a>
+
+                                    <div class="text">
+                                        <h3><span id="date5"></span></h3>
+                                        <h4><span id="date5desc"></span></h4>
+                                        <h5>Temp : <span id="date5_Tempc"></span> </h5>
+                                        <h5>Temp : <span id="date5_Tempf"></span> </h5>
+                                        <h5>Wind : <span id="date5_wind"></span></h5>
+                                        <h5>Humidity : <span id="date5_Humin"></span> </h5>
+
+                                    </div>
+                                </article>
+                            </div>
+                        </form>
+                        <br></br>
+
+                        <div id="PlayRad" class="PlayRad">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="./JavaScript/script.js"></script>
+        <script src="./JavaScript/CurrentCity.js"></script>
+    </body>
+    <footer>
+        <div id="footer">
+            <h2> &copy; Made by Manoj Adikari</h2>
+
+        </div>
+    </footer>
+</div>
+
+
+
+</html>
