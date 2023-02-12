@@ -18,7 +18,7 @@ Using JavaScript, when a user enters their city the current weather and 5 day fo
 
 
 ### Content
-please use this the following link to access the deployed website: "https://benarmstrong81.github.io/BenArmstrongs-Wealther-Dashboard-ServerSide-APIs/" 
+please use this the following link to access the deployed website: "https://manojadikari.github.io/Weather_Forecaster/" 
 
 
 
