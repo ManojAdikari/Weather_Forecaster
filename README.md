@@ -18,9 +18,9 @@ Using JavaScript, when a user enters their city the current weather and 5 day fo
 
 
 ### Content
+
 please use this the following link to access the deployed website: "https://manojadikari.github.io/Weather_Forecaster/" 
-
-
+![alt text](images/wather1.png)
 
 ## Credits
 
